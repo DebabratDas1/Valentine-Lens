@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/6090f326-ff73-48a9-93d0-676a83ccbd94>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 17
+    patch: 2
+    build: 26011319
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Heart Gesture Recognition Heart Gesture Recognition made with teachable machine.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 83
+  ExportUid: 6ff123d8-fb4a-4857-9bd1-853dfaea7d91
+  ComponentUid: 42b03533-e6fd-424d-9eb0-f51b091518a0
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

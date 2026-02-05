@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/13871fba-7a0d-47f9-a6ac-d38fe1b022aa>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 161aec95-d974-4832-a110-2ce76f0baea3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 161aec95-d974-4832-a110-2ce76f0baea3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8de92757-7e86-4520-9495-f2745b658737
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8de92757-7e86-4520-9495-f2745b658737>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8e54db85-feae-4419-9e53-2eb64774f053
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    heartDuration: false
+    heartTemplate: false
+    heartsTarget: false
+    heartsText: false
+    scoreSfx: false
+    spawnCooldown: false
+    spawnSfx: false
+    uiRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - heartTemplate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      uiRoot: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      heartsTarget: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      heartsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      heartDuration: 0.600000
+      spawnCooldown: 0.040000
+      spawnSfx: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      scoreSfx: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

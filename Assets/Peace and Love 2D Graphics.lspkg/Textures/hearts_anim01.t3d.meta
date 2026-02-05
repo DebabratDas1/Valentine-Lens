@@ -1,0 +1,30 @@
+- !<AssetImportMetadata/42630b3b-47ae-7ec3-0610-c36e3601989e>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> 13f05be0-abeb-4f56-8937-99cd07b4fa67
+    hearts_anim01_0.jpg: !<reference> 696cc251-f2ae-41e7-9d98-bab79d06fcd0
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> 13f05be0-abeb-4f56-8937-99cd07b4fa67
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    AssetLibraryId: 5uxwHrEOCVrR2ej8IQMb5a
+  AssetDataMap:
+    AnimatedTexture: !<own> 1902b464-95cc-4e30-b44e-e245327dfc42
+  DependentFiles:
+    - hearts_anim01_0.jpg
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/1902b464-95cc-4e30-b44e-e245327dfc42>
+  AutoPlay: true
+  Reversed: false
+  PingPong: false
+  CurrentSequence: default
+  KeyFramesData:
+    default:
+      - time: 0.000000
+        value: 0
+      - time: 10.479993
+        value: 44

@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/ad38e41f-175c-4f1e-9275-b0afdb1b4b1a>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 17
+    patch: 2
+    build: 26011319
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "HeartBalloon A HeartBalloon that expresses love, perfect for sending to anyone with this styling balloon, Every day you should have a HeartBalloon to make you feel good."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 83
+  ExportUid: ea7a002d-2c15-455a-9739-fa2725853e7a
+  ComponentUid: 266d1e97-85a3-46fe-86c4-aa337042aafc
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

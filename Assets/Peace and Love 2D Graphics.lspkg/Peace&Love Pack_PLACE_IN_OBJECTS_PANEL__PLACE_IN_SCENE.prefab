@@ -1,0 +1,410 @@
+- !<ObjectPrefab/d46afa57-9be1-4e58-b99e-e75700df90fa>
+  PackagePath: ""
+  objects:
+    - !<own> 4cb81214-025d-48aa-afd5-87b748046a3a
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0c0ff124-6150-4de1-b5ef-51618804d675>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e5847b48-8005-4827-8d51-09ebfba872e5
+  Mesh: !<reference> a383af15-7d6d-4306-8e39-9d998b5d7492
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: false
+        roughHarden: -1.000000
+        roughCurve: -1.000000
+    GlobalIllumination:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/173e91f2-65c5-4783-b577-b2efd4656440>
+  PrefabRemaps:
+    []
+  Name: tiedyeHeart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.439393, y: 9.504910, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> af6181b3-f971-43c5-8500-b37aea973c36
+- !<SceneObject/28f9fc60-dd02-4562-92f6-150a1df11cc7>
+  PrefabRemaps:
+    []
+  Name: tiedyePeaceRose01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 7.682368, y: -5.583095, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d54df1ba-1270-4cd0-90dc-6ed8879eb447
+- !<Image/31c149fd-7c35-4336-af8a-cb8602b7ae0a>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b507432f-d55b-4226-94c7-8c287950f98b
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/3c0331ff-4900-4885-adb2-9c67f5de4bce>
+  PrefabRemaps:
+    []
+  Name: tiedyeHeart02
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 8.782215, y: 2.976654, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f9516560-5baf-4b9b-b14f-32d27b9fb61a
+- !<Image/47d79586-3ce6-49a5-b819-067547ed6609>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 43a6ce1f-faf3-41fc-a650-781f245daf52
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4cb81214-025d-48aa-afd5-87b748046a3a>
+  PrefabRemaps:
+    - 0c0ff124-6150-4de1-b5ef-51618804d675: 0c0ff124-6150-4de1-4a10-ae9e77fb298a
+    - 173e91f2-65c5-4783-b577-b2efd4656440: 173e91f2-65c5-4783-4a88-4d102b9a9bbf
+    - 28f9fc60-dd02-4562-92f6-150a1df11cc7: 28f9fc60-dd02-4562-6d09-eaf5e20ee338
+    - 31c149fd-7c35-4336-af8a-cb8602b7ae0a: 31c149fd-7c35-4336-5075-3479fd4851f5
+    - 3c0331ff-4900-4885-adb2-9c67f5de4bce: 3c0331ff-4900-4885-524d-63980a21b431
+    - 47d79586-3ce6-49a5-b819-067547ed6609: 47d79586-3ce6-49a5-47e6-f98ab81299f6
+    - 4cb81214-025d-48aa-afd5-87b748046a3a: 4cb81214-025d-48aa-502a-7848b7fb95c5
+    - 4ddb64ab-e59e-4206-89fa-6678be978ff7: 4ddb64ab-e59e-4206-7605-998741687008
+    - 5be9551d-5c99-4593-af7b-c5c0f5e4aee6: 5be9551d-5c99-4593-5084-3a3f0a1b5119
+    - 61b5267c-3a1b-4910-823b-a195c90e3a41: 61b5267c-3a1b-4910-7dc4-5e6a36f1c5be
+    - 6c1988c5-3bac-4e4f-8562-beb52b0fcd8e: 6c1988c5-3bac-4e4f-7a9d-414ad4f03271
+    - 8fd6a142-f34c-4fc3-a5f1-ddca26086ca6: 8fd6a142-f34c-4fc3-5a0e-2235d9f79359
+    - a441861e-25de-41ab-8004-aacc8659d38c: a441861e-25de-41ab-7ffb-553379a62c73
+    - ae68521d-bcfe-4de3-9344-376f2a961fd4: ae68521d-bcfe-4de3-6cbb-c890d569e02b
+    - af6181b3-f971-43c5-8500-b37aea973c36: af6181b3-f971-43c5-7aff-4c851568c3c9
+    - bbe37cd5-4cd7-48fd-b8e9-ddbbace7ce60: bbe37cd5-4cd7-48fd-4716-22445318319f
+    - bf6e11a5-c081-4ae8-abdd-a9e8a7979dcf: bf6e11a5-c081-4ae8-5422-561758686230
+    - c949981a-4f69-4604-839e-b9998f10105c: c949981a-4f69-4604-7c61-466670efefa3
+    - cd91d626-61fa-48d1-9617-3cc8e840d46e: cd91d626-61fa-48d1-69e8-c33717bf2b91
+    - d54df1ba-1270-4cd0-90dc-6ed8879eb447: d54df1ba-1270-4cd0-6f23-912778614bb8
+    - f9516560-5baf-4b9b-b14f-32d27b9fb61a: f9516560-5baf-4b9b-4eb0-cd2d846049e5
+  Name: Peace&Love Pack_PLACE_IN_OBJECTS_PANEL__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 173e91f2-65c5-4783-b577-b2efd4656440
+    - !<own> 61b5267c-3a1b-4910-823b-a195c90e3a41
+    - !<own> bbe37cd5-4cd7-48fd-b8e9-ddbbace7ce60
+    - !<own> 3c0331ff-4900-4885-adb2-9c67f5de4bce
+    - !<own> 8fd6a142-f34c-4fc3-a5f1-ddca26086ca6
+    - !<own> 4ddb64ab-e59e-4206-89fa-6678be978ff7
+    - !<own> 28f9fc60-dd02-4562-92f6-150a1df11cc7
+    - !<own> a441861e-25de-41ab-8004-aacc8659d38c
+    - !<own> 5be9551d-5c99-4593-af7b-c5c0f5e4aee6
+    - !<own> ae68521d-bcfe-4de3-9344-376f2a961fd4
+  Components:
+    []
+- !<SceneObject/4ddb64ab-e59e-4206-89fa-6678be978ff7>
+  PrefabRemaps:
+    []
+  Name: tiedyePeaceBranch01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 4.036261, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c949981a-4f69-4604-839e-b9998f10105c
+- !<SceneObject/5be9551d-5c99-4593-af7b-c5c0f5e4aee6>
+  PrefabRemaps:
+    []
+  Name: tiedyeRose01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.761709, y: -5.583095, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 47d79586-3ce6-49a5-b819-067547ed6609
+- !<SceneObject/61b5267c-3a1b-4910-823b-a195c90e3a41>
+  PrefabRemaps:
+    []
+  Name: tiedyeHeart01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 8.059185, y: 10.129000, z: -2.790146}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bf6e11a5-c081-4ae8-abdd-a9e8a7979dcf
+- !<Image/6c1988c5-3bac-4e4f-8562-beb52b0fcd8e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 66e8915c-0613-49e8-a920-cdeb90fb5f13
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8fd6a142-f34c-4fc3-a5f1-ddca26086ca6>
+  PrefabRemaps:
+    []
+  Name: tiedyeHeart03
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.464885, y: 0.814600, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6c1988c5-3bac-4e4f-8562-beb52b0fcd8e
+- !<SceneObject/a441861e-25de-41ab-8004-aacc8659d38c>
+  PrefabRemaps:
+    []
+  Name: tiedyeRose
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -6.743703, y: -6.786809, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cd91d626-61fa-48d1-9617-3cc8e840d46e
+- !<SceneObject/ae68521d-bcfe-4de3-9344-376f2a961fd4>
+  PrefabRemaps:
+    []
+  Name: sphereExample_DELETE_ME
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -15.658628, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.820945, y: 0.820945, z: 0.820945}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0c0ff124-6150-4de1-b5ef-51618804d675
+- !<Image/af6181b3-f971-43c5-8500-b37aea973c36>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 876828a3-0a65-4ad3-ac0c-1fb2eaeb962c
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/bbe37cd5-4cd7-48fd-b8e9-ddbbace7ce60>
+  PrefabRemaps:
+    []
+  Name: heartRose
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.105767, y: 13.090648, z: 4.014278}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 31c149fd-7c35-4336-af8a-cb8602b7ae0a
+- !<Image/bf6e11a5-c081-4ae8-abdd-a9e8a7979dcf>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a8df933e-340b-498a-9b90-ed2438e8edbf
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/c949981a-4f69-4604-839e-b9998f10105c>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e642fc15-7bf8-424e-a849-4a77acd0d36c
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/cd91d626-61fa-48d1-9617-3cc8e840d46e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 7
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 671411b5-b607-41b4-831b-a1435eda36f9
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/d54df1ba-1270-4cd0-90dc-6ed8879eb447>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 6
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e97a3059-3e7a-4f74-b2ca-1a3931c8af40
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/f9516560-5baf-4b9b-b14f-32d27b9fb61a>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5a2aeda8-6291-4310-8650-fdaf71134198
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000

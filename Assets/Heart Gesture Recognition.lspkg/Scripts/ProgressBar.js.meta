@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/ab9cbf6d-6c3c-f3fd-f845-bb5b6be60feb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> db371a68-b132-44c2-8ebe-312dbd839c67
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> db371a68-b132-44c2-8ebe-312dbd839c67
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 4L2RS0qwxYkWwvGGw8SHxs
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8458f121-3b84-452a-97c0-46b259cb3690
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8458f121-3b84-452a-97c0-46b259cb3690>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 43491878-49ac-4a19-bae2-b107a89ab39c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    labelTextComp: false
+    progressBarImage: false
+    valueTextComp: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - labelTextComp: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      valueTextComp: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      progressBarImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

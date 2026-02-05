@@ -1,0 +1,89 @@
+- !<AssetImportMetadata/ce12d92b-41ed-4249-b0b9-09b3c7b0e067>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 01851e9f-f898-4635-9d8d-09b4a1412bd6
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 01851e9f-f898-4635-9d8d-09b4a1412bd6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> f3544cc3-51f6-4e84-8fa0-1173d863c16c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/01878fc8-075f-45a9-5b48-cd7c647d515c>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 034a7527-154b-47c9-a4b1-42d32367cbd9
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/612c8560-f53c-486e-5638-ad472f3cd6a7>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.205486
+    bottom: 0.235790
+    right: 0.042158
+    top: 0.370310
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/b2c1eb95-d1cc-42ea-6515-28bdd144a9f9>
+  PrefabRemaps:
+    []
+  Name: HeartTemplate
+  Enabled: false
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 612c8560-f53c-486e-5638-ad472f3cd6a7
+    - !<own> 01878fc8-075f-45a9-5b48-cd7c647d515c
+- !<ObjectPrefabAssetData/f3544cc3-51f6-4e84-8fa0-1173d863c16c>
+  Prototype: !<ObjectOwner/4d5fc32d-a269-4501-b905-a9e90bb46dd3>
+    PackagePath: ""
+    objects:
+      - !<own> b2c1eb95-d1cc-42ea-6515-28bdd144a9f9

@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/82c4c6ac-8b83-6e0d-cabd-d5742c62baf5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d366857f-a256-4218-9a05-861b8f8c3773
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d366857f-a256-4218-9a05-861b8f8c3773
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 4L2RS0qwxYkWwvGGw8SHxs
+  AssetDataMap:
+    JavaScriptAsset: !<own> f19e3f19-8176-45ce-a55e-05c7da3dfbac
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f19e3f19-8176-45ce-a55e-05c7da3dfbac>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1f46eb82-8c53-45c8-862b-6baa37f9d55c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    count: false
+    progressBarPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - progressBarPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      count: 5
+  ScriptTypes:
+    -
+      {}

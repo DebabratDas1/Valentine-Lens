@@ -1,0 +1,266 @@
+- !<AssetImportMetadata/ca8952fd-7aae-0e7d-bf90-4e640be7943e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 3898cd53-8e1a-4cd5-bda7-cfd1b7eefad5
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 3898cd53-8e1a-4cd5-bda7-cfd1b7eefad5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 2t27DlcziK4sy6YJdEjdlK
+  AssetDataMap:
+    ObjectPrefab: !<own> e6c9d470-47bc-4451-82de-d41e99e2df60
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0ac79323-e89d-467b-624e-9bbecf9fc03c>
+  PrefabRemaps:
+    []
+  Name: Glitter Long 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c477d8a1-4605-41b9-4621-090852e60b29
+- !<SceneObject/15126368-2cc2-4fcd-5c3d-161484dad6dd>
+  PrefabRemaps:
+    []
+  Name: Glitter Long 3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 74cdc41b-80a4-4aa0-64ec-dfe2e68378c6
+- !<SceneObject/182e56e4-7c17-496d-7d48-7868bfb77a48>
+  PrefabRemaps:
+    []
+  Name: Glitter Short 2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45e6971d-e545-42fa-4506-a360f1f2424e
+- !<AudioComponent/223649b3-9070-4794-7cff-c69d6b1e0b71>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c49da151-06dc-40b2-992c-3f01f478eeef
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/45e6971d-e545-42fa-4506-a360f1f2424e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f09672be-d387-4f6c-8fcb-4c117d2a4a9c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/74cdc41b-80a4-4aa0-64ec-dfe2e68378c6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> e8501ce2-a6eb-4939-bbed-3d7b59ac0c52
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/7a3d65b9-6c3d-4c91-4ae5-d0926d1f4246>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 197867d4-473c-4df8-b856-15419857a41b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/7e946ae2-9a2a-4400-4674-2126bdbe56c0>
+  PrefabRemaps:
+    []
+  Name: Glitter Short 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7a3d65b9-6c3d-4c91-4ae5-d0926d1f4246
+- !<AudioComponent/810f6f90-ff3b-4c0e-6add-c8e0ef8b7d30>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 6a01cae6-e83d-492b-a0ba-1db96fe10215
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/81e4d131-62c5-480d-6d46-f5336b0463f8>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 135294de-618b-4265-811c-7efaee59efcd
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/84dbd6df-e701-47b5-5e6c-ee23735f253b>
+  PrefabRemaps:
+    []
+  Name: GlitterSFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7e946ae2-9a2a-4400-4674-2126bdbe56c0
+    - !<own> 182e56e4-7c17-496d-7d48-7868bfb77a48
+    - !<own> b7cfe35b-cb8e-425a-7f98-073f17d8b7d3
+    - !<own> e78abc90-f090-47d6-5596-50e72047f2e0
+    - !<own> 0ac79323-e89d-467b-624e-9bbecf9fc03c
+    - !<own> bc71c55f-ae47-4e52-77c1-503c6c48cebb
+    - !<own> 15126368-2cc2-4fcd-5c3d-161484dad6dd
+  Components:
+    []
+- !<SceneObject/b7cfe35b-cb8e-425a-7f98-073f17d8b7d3>
+  PrefabRemaps:
+    []
+  Name: Glitter Short 3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 223649b3-9070-4794-7cff-c69d6b1e0b71
+- !<SceneObject/bc71c55f-ae47-4e52-77c1-503c6c48cebb>
+  PrefabRemaps:
+    []
+  Name: Glitter Long 2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 81e4d131-62c5-480d-6d46-f5336b0463f8
+- !<AudioComponent/c477d8a1-4605-41b9-4621-090852e60b29>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7e4e19cc-3828-46fb-9826-bad8dda82d55
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ObjectPrefabAssetData/e6c9d470-47bc-4451-82de-d41e99e2df60>
+  Prototype: !<ObjectOwner/8efc3d5c-1d4b-4f87-b392-ffd09d8bafd9>
+    PackagePath: ""
+    objects:
+      - !<own> 84dbd6df-e701-47b5-5e6c-ee23735f253b
+- !<SceneObject/e78abc90-f090-47d6-5596-50e72047f2e0>
+  PrefabRemaps:
+    []
+  Name: Glitter Short 4
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 810f6f90-ff3b-4c0e-6add-c8e0ef8b7d30

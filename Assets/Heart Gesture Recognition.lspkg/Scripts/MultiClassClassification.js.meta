@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/b81a9cee-8fdf-87e6-5ed6-2400f407eda2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> feb425a4-d920-44d4-8ad3-823911ff9edb
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> feb425a4-d920-44d4-8ad3-823911ff9edb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 4L2RS0qwxYkWwvGGw8SHxs
+  AssetDataMap:
+    JavaScriptAsset: !<own> f69f84d6-9ba8-4dae-8019-c18371ab38fe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f69f84d6-9ba8-4dae-8019-c18371ab38fe>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8d714183-d9a1-4b3a-ae30-064d18ecac2a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    callFunction: false
+    classText: false
+    customTriggerPrefixFound: false
+    customTriggerPrefixLost: false
+    functionName: false
+    labels: false
+    mlComponent: false
+    placeholderText: false
+    printResultTo: false
+    scriptComponent: false
+    threshold: false
+    topK: false
+    useBehavior: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      labels: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      threshold: 0.700000
+      topK: 3
+      callFunction: false
+      scriptComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: functionName
+      useBehavior: false
+      customTriggerPrefixFound: FOUND_
+      customTriggerPrefixLost: LOST_
+      printResultTo: false
+      classText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      placeholderText: Looking for flower...
+  ScriptTypes:
+    -
+      {}
