@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: "Scratch, Dare-Send"
   lensDescriptors:
     []
   lensApplicability:
@@ -21,10 +21,9 @@ metaInfo:
     - Back
   lensClientCompatibilities:
     - Mobile
-    - Web
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 13ed767a758ae894b133bb3d6741bfb7
+  videoPreviewHash: 767ad9799aa78f3df743c5aefc2f6997
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319
   activationCamera: Front

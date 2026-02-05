@@ -185,14 +185,15 @@ function playSpawnFeedback() {
     if (script.spawnSfx) {
         script.spawnSfx.play(1);
     }
-/*
+
     // Light haptic for spawn (iOS only; no effect in Editor / Android)
     if (!global.deviceInfoSystem.isEditor()
-        && global.deviceInfoSystem.isMobile()
-        && global.deviceInfoSystem.getOS() == DeviceInfoSystem.OS.iOS) {
+        //&& global.deviceInfoSystem.isMobile()
+        //&& global.deviceInfoSystem.getOS() == DeviceInfoSystem.OS.iOS
+        ) {
 
         global.hapticFeedbackSystem.hapticFeedback(HapticFeedbackType.Vibration);
-    }*/
+    }
 }
 
 function playScoreFeedback() {
@@ -200,13 +201,14 @@ function playScoreFeedback() {
     if (script.scoreSfx) {
         //script.scoreSfx.play(1);
     }
-/*
+
     // Optional: You can keep this or comment it out if hearts already vibrate enough
     if (!global.deviceInfoSystem.isEditor()
-        && global.deviceInfoSystem.isMobile()
-        && global.deviceInfoSystem.getOS() == DeviceInfoSystem.OS.iOS) {
+        //&& global.deviceInfoSystem.isMobile()
+        //&& global.deviceInfoSystem.getOS() == DeviceInfoSystem.OS.iOS
+        ) {
 
         global.hapticFeedbackSystem.hapticFeedback(HapticFeedbackType.Vibration);
     }
-    */
+    
 }
