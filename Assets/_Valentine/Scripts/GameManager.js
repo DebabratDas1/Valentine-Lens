@@ -27,6 +27,8 @@ script.leaderboardRef.onLeaderboardRecordsUpdated.add(function(wrapper) {
 
     }
 });
+
+script.leaderboardRef.setLeaderboardName('Top Romantic Valentines');
 /*
 
 var ss = script.leaderboardRef.getSideSwitcher();
