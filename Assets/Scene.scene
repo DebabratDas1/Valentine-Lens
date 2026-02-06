@@ -423,8 +423,8 @@
   ScriptInputs:
     "":
       sticker: !<reference.Texture> 8ada9209-75e1-44d0-8241-2307fe0009d5
-      center: !<Vec2> {x: 0.000000, y: -0.150000}
-      size: 1.250000
+      center: !<Vec2> {x: 0.000000, y: -0.500000}
+      size: 0.850000
       rotation: !<float> 0.000000
       strokeWeight: 0.050000
       blockId: ""
@@ -1911,10 +1911,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -0.827262
-    bottom: -0.760240
-    right: 0.847584
-    top: 0.337805
+    left: -0.719096
+    bottom: -0.944014
+    right: 0.732568
+    top: -0.038136
   Offset:
     left: 0.000000
     bottom: 0.000000
