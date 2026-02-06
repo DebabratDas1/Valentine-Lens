@@ -115,13 +115,39 @@ function init() {
         const shaderPos = touchToShaderPos(args.position);
         lineMat.mainPass.p1 = shaderPrevPos;
         lineMat.mainPass.p2 = shaderPos;
-        const amount = getScratchedOffAmount();
+        //const amount = getScratchedOffAmount();
+        /*
         if (!scratchStartSent && amount>0) {
             scratchStartSent = true;
             script.onScratchStart.trigger();
         }
-        scratchOffCount += amount;
+        */
+
+        if (!scratchStartSent) {
+            scratchStartSent = true;
+            script.onScratchStart.trigger();
+        }
+
+        scratchOffCount += 10;
+
+
+        //scratchOffCount += amount;
+        /*
         if (scratchOffCount>200) {
+            if (!global.deviceInfoSystem.isEditor()) {
+                global.hapticFeedbackSystem.hapticFeedback(HapticFeedbackType.TapticEngine);
+            }
+
+             // NEW: spawn hearts via the separate controller
+            if (global.heartCoinController) {
+                // second parameter = how many hearts to spawn per scratch step
+            global.heartCoinController.spawnFromScreenPos(args.position, 10);
+            }       
+            scratchOffCount=0;
+        }
+        */
+
+        if (scratchOffCount>0) {
             if (!global.deviceInfoSystem.isEditor()) {
                 global.hapticFeedbackSystem.hapticFeedback(HapticFeedbackType.TapticEngine);
             }

@@ -9,6 +9,8 @@
     - !<own> ce1b087b-cf87-4998-9f55-ffed328889fc
     - !<own> bfcf9947-e5d1-4bc5-8fe9-c0fe20b44622
     - !<own> 50881d67-23eb-48b2-96ac-b8ea1b6bf36c
+    - !<own> 5516fde6-ae89-4657-b923-b4f7c98d8c20
+    - !<own> cb1bcf88-b194-40a4-beb3-53e69f12b40e
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -211,6 +213,107 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<ScriptComponent/0416c9f7-46ce-429d-a5ab-c4362504ac4f>
+  PrefabRemaps:
+    []
+  Name: BGMRandomPlayList
+  Enabled: true
+  ScriptAsset: !<reference> d2abd92f-4dc6-4e06-86c5-accd80f8070f
+  ScriptInputsDefault:
+    bgmAudio: true
+    loopPlaylist: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bgmAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      tracks: !<reference.LicensedAudioTrack[]>
+        - !<reference> d195dfb2-72d2-4c98-be78-cbe20bd4ecd5
+        - !<reference> 42fe5807-d06d-4d2b-a4bb-398ea0e15099
+        - !<reference> 72e24920-b055-47b0-9b9c-924fef2604aa
+        - !<reference> 6db8803c-4858-4765-b15d-1466e84fd10c
+        - !<reference> 62b6ced0-8a75-4785-9ed3-1dab9c38d0bb
+        - !<reference> 5a7f35a7-bbf8-4158-b5ac-8c4254739021
+        - !<reference> 6be8ba73-5af2-42ef-a815-d592ed08eb02
+        - !<reference> 28d839c8-8c77-42aa-99c0-7ac9a40b1bfb
+        - !<reference> 58d9ff70-ce5e-4a64-bdb0-6da67a81f263
+        - !<reference> 329e5e1e-5ce7-4134-a37c-572c355b8d2b
+        - !<reference> df71510b-4cea-4105-ab34-473fd7a4f81c
+        - !<reference> 495a98dc-34b2-4fdf-91b3-9ce1ba54b1a1
+        - !<reference> 88117ca0-8565-40a4-8274-4b6ae216b3d0
+        - !<reference> a01604a6-fb5e-4048-9963-e5310e085d94
+        - !<reference> ed7ebc41-294b-486d-bd87-6c7305b31ca4
+        - !<reference> d4c4017c-3e78-4ef6-b053-6005f3b81b6b
+        - !<reference> 8636f7f4-9e5c-4d40-b086-e0bf8c6113a3
+        - !<reference> b6857a28-0c99-4401-94ed-8d281f6aefbd
+        - !<reference> 312621b8-f3e9-4638-a746-e0fe09507222
+        - !<reference> 21e5720a-101a-4722-8b81-e460879ef039
+        - !<reference> e2eee4d2-9fc7-4a3e-bfea-3be9989d14fc
+        - !<reference> f4b99ab4-1d68-4db9-8509-915112f51c56
+        - !<reference> 9cd3337c-a40a-4c50-8c07-488828930cc5
+        - !<reference> 93ff9088-4a0d-4a77-b712-6a24e872b44d
+        - !<reference> 89526bc9-fc35-41c2-b3eb-5b7806861193
+        - !<reference> 2e91a348-e04d-4492-9ff2-a30472bf0044
+        - !<reference> 73764577-c8e9-4cbc-9454-94b9226ad43b
+        - !<reference> 4002d7db-f003-42d9-8308-1e414eb7bff3
+        - !<reference> 3d93fe26-139a-4824-aea2-3f0badd72c8d
+        - !<reference> af30982d-5012-4340-966f-54b73fb198e3
+        - !<reference> efdba24d-e1ab-4172-8ceb-ec30e8fb95e4
+        - !<reference> 9d712502-0a7e-49e7-a15d-7e216a3a0d57
+        - !<reference> 67884bc1-327b-40d1-95eb-3f1ae8005aa9
+        - !<reference> aed75281-3a65-4f0e-b184-897b9c4b5376
+        - !<reference> 05ab19ae-48ac-4d58-a8b7-843042c8015d
+        - !<reference> 1fb97111-1340-486b-af56-02aa4f52cb87
+        - !<reference> 3b386a1b-53c2-4b2f-b317-f41d58025bfa
+        - !<reference> a437fd33-e9b6-4472-b9d5-d6ec801457c8
+        - !<reference> dee96800-3bd5-41fb-aa7c-83d7a77f8c1c
+        - !<reference> 261e4ab6-560c-47c2-8f8e-863b658ab776
+        - !<reference> 74b3acad-0b3d-4def-a779-4365f37fd2f9
+        - !<reference> 28d738d2-1862-414c-9da9-91b7f2bdef7b
+        - !<reference> 574bea60-bad5-4a5b-bced-3f8d2d9a55a6
+        - !<reference> ce469271-188b-46d5-a9a6-19910d57a6f6
+        - !<reference> a4867429-8a48-421a-aa8e-58641c8b6059
+        - !<reference> 31f8e373-dcd6-4651-833b-2195cce1eda0
+        - !<reference> 151dbb25-ca45-4d7d-8a81-8ac85a4ad5d5
+        - !<reference> b454582f-1900-46d8-b752-c969ad8908aa
+        - !<reference> fc6ba868-c8bb-4069-aa8d-604dd1148ad6
+      loopPlaylist: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/06b4c1df-fc8b-44c7-92ab-45183b63600e>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.250000, y: 0.250000, z: 0.250000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
 - !<AudioComponent/10a2b83e-7cc0-4634-ad3e-be0b155e8731>
   PrefabRemaps:
     []
@@ -298,7 +401,7 @@
     []
   Name: Full Frame Region
   Enabled: true
-  Layers: 1048576
+  Layers: 2
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -306,9 +409,11 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> e016e59e-3a85-4fc3-9232-42ca3f72e480
+    - !<own> 78c9c0a6-36a9-4211-8481-640d1fac9caa
     - !<own> 7b49453c-fa92-46f4-a72e-c99ffb603a53
     - !<own> 1c5927ae-9212-4629-9a7d-99e46a9e3202
     - !<own> 91e8da01-1e0a-48b9-9229-43ca109a563d
+    - !<own> 6c7f9aa1-c35d-4f5b-a4dd-a41bf561b5f9
   Components:
     - !<own> 2d044093-a85c-4a26-94b5-097134b4b32e
     - !<own> 902ab818-8aff-477f-acd9-194b8241a5ee
@@ -453,6 +558,16 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<InteractionComponent/4ec08b26-8582-4195-bdd7-25931c637ee7>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: false
+  MeshVisuals:
+    []
 - !<SceneObject/50881d67-23eb-48b2-96ac-b8ea1b6bf36c>
   PrefabRemaps:
     []
@@ -468,6 +583,21 @@
     []
   Components:
     - !<own> bb7890d9-a99d-407b-bb25-d2c1975d0966
+- !<SceneObject/5516fde6-ae89-4657-b923-b4f7c98d8c20>
+  PrefabRemaps:
+    []
+  Name: BGM
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a9d2203f-ef60-43cf-8b31-1d41e8280db2
 - !<SceneObject/5ad55654-d690-43d5-aa39-055fad9559e2>
   PrefabRemaps:
     []
@@ -484,6 +614,7 @@
     - !<own> 02423e54-6cd7-40b6-b29a-bd73bb12132e
     - !<own> 5ae5a6bb-6a78-47d6-873e-bea84a15a1aa
     - !<own> 77719112-cfe5-4eeb-a095-2099c895b9cf
+    - !<own> cd591dc0-6741-4101-8c05-a3ea4540d3b3
   Components:
     []
 - !<SceneObject/5ae5a6bb-6a78-47d6-873e-bea84a15a1aa>
@@ -506,11 +637,60 @@
     []
   Name: Interaction
   Enabled: true
-  Camera: !<reference> 7d7cb605-9de4-4bb0-891b-ca087f87cdec
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
   MinimumTouchSize: 0.000000
   DepthFilter: false
   MeshVisuals:
     []
+- !<ScreenTransform/6a78f5c8-63f6-4ed7-9d29-955299d4a3e5>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.335229
+    bottom: -0.975311
+    right: 0.769851
+    top: -0.659341
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/6c7f9aa1-c35d-4f5b-a4dd-a41bf561b5f9>
+  PrefabRemaps:
+    []
+  Name: LeaderboardComponent
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.250000, y: 0.250000, z: 0.250000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 06b4c1df-fc8b-44c7-92ab-45183b63600e
+    - !<own> cd4dcac8-a4e0-4955-acf9-93f49996f774
 - !<Text/6fa88d43-24cf-4ee1-9ecd-d7f93f014b9b>
   PrefabRemaps:
     []
@@ -625,6 +805,23 @@
     []
   Components:
     - !<own> 9144cd14-23b3-4324-963a-0e4cf0bd3147
+- !<SceneObject/78c9c0a6-36a9-4211-8481-640d1fac9caa>
+  PrefabRemaps:
+    []
+  Name: SendQuoteButton
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6a78f5c8-63f6-4ed7-9d29-955299d4a3e5
+    - !<own> 7ea9fbd5-d218-4028-af02-25fdb43402d1
+    - !<own> 4ec08b26-8582-4195-bdd7-25931c637ee7
 - !<SceneObject/7b49453c-fa92-46f4-a72e-c99ffb603a53>
   PrefabRemaps:
     []
@@ -688,6 +885,25 @@
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/7ea9fbd5-d218-4028-af02-25fdb43402d1>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8dd4e8d3-13ae-43e9-a794-ae16df03ae42
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/8a175dc2-11a9-4f45-b158-16b2390370fb>
   PrefabRemaps:
     []
@@ -735,12 +951,14 @@
   Enabled: true
   ScriptAsset: !<reference> 0e336a7f-1247-47aa-9798-db6771148462
   ScriptInputsDefault:
-    turnBased: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      turnBased: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      turnBased: !<reference.ScriptComponent> a4a9e540-c7dc-42de-a6b4-9ac796f0eaaa
+      leaderboardRef: !<reference.ScriptComponent> cd4dcac8-a4e0-4955-acf9-93f49996f774
+      sendQuoteButton: !<reference.InteractionComponent> 4ec08b26-8582-4195-bdd7-25931c637ee7
   ScriptTypes:
     "":
       {}
@@ -794,6 +1012,120 @@
   Components:
     - !<own> b85cb6c7-541e-42a5-b4bc-096872ea9af0
     - !<own> 2ca19309-5692-4410-b3e4-a39354fec069
+- !<ScriptComponent/a4a9e540-c7dc-42de-a6b4-9ac796f0eaaa>
+  PrefabRemaps:
+    []
+  Name: Turn Based
+  Enabled: true
+  ScriptAsset: !<reference> 2485c892-b1f1-4924-9453-ce440bd2cdfb
+  ScriptInputsDefault:
+    requireTurnSubmission: true
+    allowChangingTurnVariablesAfterTurnSubmission: true
+    turnLimitInput: true
+    useTurnHistory: true
+    turnsSavedLimitInput: true
+    autoRestoreTurn: true
+    tappableAreasInput: true
+    user1FlowObjectsInputSO: true
+    user2FlowObjectsInputSO: true
+    gameOverObjectsInputSO: true
+    debugMode: true
+    swapPlayersAfterSimulatedTurn: true
+    debugTappedKeySimulateTurn: true
+    debugTurnCount: true
+    debugTappedKeySingleTurn: true
+    testDataType: true
+    debugIsTurnComplete: true
+    debugIsTurnRestoredFromCache: true
+    debugAssociatedDataStudioInputs: true
+    debugTurnHistoryStudioInputs: true
+    debugAssociatedDataString: true
+    debugTurnHistoryStrings: true
+    _onTurnStartResponses: true
+    _onTurnEndResponses: true
+    _onGameOverResponses: true
+    printLogsInput: true
+    loggerConfig: true
+    showDebugView: true
+    _advancedOptions: true
+    defaultTurnVariables: true
+    remoteServiceModule: true
+    autoCaptureHelper: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      requireTurnSubmission: true
+      allowChangingTurnVariablesAfterTurnSubmission: false
+      useTurnLimit: true
+      turnLimitInput: 2
+      useTurnHistory: false
+      turnsSavedLimitInput: 0
+      autoRestoreTurn: false
+      tappableAreasInput:
+        []
+      user1FlowObjectsInputSO: !<reference.SceneObject[]>
+        []
+      user2FlowObjectsInputSO: !<reference.SceneObject[]>
+        []
+      gameOverObjectsInputSO: !<reference.SceneObject[]>
+        []
+      debugMode: Simulate Turns
+      swapPlayersAfterSimulatedTurn: true
+      debugTappedKeySimulateTurn: ""
+      debugTurnCount: 0
+      debugTappedKeySingleTurn: ""
+      testDataType: Studio Inputs
+      debugIsTurnComplete: false
+      debugIsTurnRestoredFromCache: false
+      debugAssociatedDataStudioInputs:
+        []
+      debugTurnHistoryStudioInputs:
+        - variables:
+            []
+          isTurnComplete: false
+      debugAssociatedDataString: '{"key1": "value1", "key2":0}'
+      debugTurnHistoryStrings:
+        []
+      _onTurnStartResponses:
+        []
+      _onTurnEndResponses:
+        []
+      _onGameOverResponses:
+        []
+      printLogsInput: false
+      loggerConfig:
+        printOnScreen: false
+        fontSize: !<float> 12.000000
+        printErrors: true
+        printWarnings: true
+        printInfoLogs: false
+      showDebugView: false
+      _advancedOptions: false
+      defaultTurnVariables:
+        []
+      remoteServiceModule: !<reference.RemoteServiceModule> 53134e89-9460-4d35-b990-7708cd763b62
+      autoCaptureHelper: !<reference.ScriptAsset> f6c679e6-a4e6-4760-86bb-4836099db786
+  ScriptTypes:
+    "":
+      {}
+- !<AudioComponent/a9d2203f-ef60-43cf-8b31-1d41e8280db2>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 75b4bfc0-1dab-4e34-8a48-8f444bad4413
+  EnableAutoplayLoop: true
+  Volume: 0.800000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: true
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: true
+  EnablePositionEffect: true
 - !<ScreenTransform/b0fcaaad-572f-4053-bec5-06dc369fb20c>
   PrefabRemaps:
     []
@@ -818,10 +1150,10 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: 0.290929
-    bottom: -0.817326
-    right: 0.725551
-    top: -0.501356
+    left: -0.784456
+    bottom: -0.975311
+    right: -0.349834
+    top: -0.659341
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -1312,6 +1644,101 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<SceneObject/cb1bcf88-b194-40a4-beb3-53e69f12b40e>
+  PrefabRemaps:
+    []
+  Name: Turn Baseed
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a4a9e540-c7dc-42de-a6b4-9ac796f0eaaa
+- !<ScriptComponent/cd4dcac8-a4e0-4955-acf9-93f49996f774>
+  PrefabRemaps:
+    []
+  Name: LeaderboardComponent
+  Enabled: true
+  ScriptAsset: !<reference> f35db787-be82-4edc-9413-dc356f19ad1f
+  ScriptInputsDefault:
+    autoInitialize: true
+    scoreOrdering: true
+    bitmojiModule: true
+    remoteMediaModule: true
+    leaderboardModule: true
+    debugMode: true
+    headerOption: true
+    backgroundTexture: true
+    leaderboardVisuals: true
+    componentDependencies: true
+    useNotification: true
+    useScoreWidget: true
+    hideScoreWidgetOption: true
+    endStateOption: true
+    leaderboardEntry: true
+    scoreWidgetPrefab: true
+    renderOrder: true
+    testingScenario: true
+    scoreToSubmit: true
+    printDebugStatements: true
+    printWarningStatements: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autoInitialize: true
+      leaderboardName: Charm Rank
+      userLimit: 50
+      scoreLifetimeOption: 1
+      leaderboardStartDate: 07/06/2026
+      scoreOrdering: 1
+      bitmojiModule: !<reference.BitmojiModule> bc24cc0c-473c-4cf3-b875-6a9b6963eee3
+      remoteMediaModule: !<reference.RemoteMediaModule> 2f268c65-d2ff-44aa-be05-b291a8a4269d
+      leaderboardModule: !<reference.LeaderboardModule> b64949b3-b8e6-4e2f-9ebb-ef25f6f223d5
+      debugMode: 0
+      headerOption: 1
+      backgroundCustomization: 1
+      backgroundTexture: !<reference.Texture> 0a3850df-88c1-4c03-ba5e-564d87534dba
+      customStickerId: ""
+      useBackgroundBlur: true
+      leaderboardVisuals: !<reference.ObjectPrefab> 27400846-1018-49d1-bd75-1c78409afa7b
+      componentDependencies: !<reference.ObjectPrefab> 290d1fe6-2e1d-4dc5-8131-790fde695daf
+      useNotification: true
+      useScoreWidget: true
+      hideScoreWidgetOption: 0
+      delayTime: !<float> 1.000000
+      endStateOption: 2
+      leaderboardEntry: !<reference.ObjectPrefab> 5777fa32-5b75-4184-8b98-bb9a4c92151b
+      scoreWidgetPrefab: !<reference.ObjectPrefab> 72aaa69a-92c4-4c5a-a38c-d983f4a0bc97
+      renderOrder: 1
+      testingScenario: 0
+      entriesCount: 25999
+      scoreToSubmit: 100
+      printDebugStatements: true
+      printWarningStatements: true
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/cd591dc0-6741-4101-8c05-a3ea4540d3b3>
+  PrefabRemaps:
+    []
+  Name: BGMRandomPlayList
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0416c9f7-46ce-429d-a5ab-c4362504ac4f
 - !<SceneObject/ce1b087b-cf87-4998-9f55-ffed328889fc>
   PrefabRemaps:
     []

@@ -1,8 +1,8 @@
-- !<Material/466105c7-e31b-43bd-a540-18d87ca5e296>
+- !<Material/8dd4e8d3-13ae-43e9-a794-ae16df03ae42>
   PackagePath: ""
   PassesInfo:
-    - !<own> 8dac53c2-10b1-4f56-aa77-3726d9c93e0c
-- !<PassInfo/8dac53c2-10b1-4f56-aa77-3726d9c93e0c>
+    - !<own> 7c9f5e96-ec46-4635-b0e4-3ef1ea21aba2
+- !<PassInfo/7c9f5e96-ec46-4635-b0e4-3ef1ea21aba2>
   CachedProperties:
     - Port_Default_N369:
         typeIdx: 5
@@ -37,7 +37,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 1160adac-44aa-4ce1-80aa-d9a67ad13bad
+        id: 5fa0d45a-8112-45c0-b0a3-7a92c1346c62
         sampler:
           filteringMode: Trilinear
           wrapModeU: ClampToEdge
