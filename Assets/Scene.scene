@@ -1,6 +1,7 @@
 - !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
   PackagePath: ""
   objects:
+    - !<own> cb1bcf88-b194-40a4-beb3-53e69f12b40e
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> dda5f741-e0d4-4493-98dc-40e67b0a1a4d
@@ -10,7 +11,6 @@
     - !<own> bfcf9947-e5d1-4bc5-8fe9-c0fe20b44622
     - !<own> 50881d67-23eb-48b2-96ac-b8ea1b6bf36c
     - !<own> 5516fde6-ae89-4657-b923-b4f7c98d8c20
-    - !<own> cb1bcf88-b194-40a4-beb3-53e69f12b40e
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -213,74 +213,6 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
-- !<ScriptComponent/0416c9f7-46ce-429d-a5ab-c4362504ac4f>
-  PrefabRemaps:
-    []
-  Name: BGMRandomPlayList
-  Enabled: true
-  ScriptAsset: !<reference> d2abd92f-4dc6-4e06-86c5-accd80f8070f
-  ScriptInputsDefault:
-    bgmAudio: true
-    loopPlaylist: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      bgmAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      tracks: !<reference.LicensedAudioTrack[]>
-        - !<reference> d195dfb2-72d2-4c98-be78-cbe20bd4ecd5
-        - !<reference> 42fe5807-d06d-4d2b-a4bb-398ea0e15099
-        - !<reference> 72e24920-b055-47b0-9b9c-924fef2604aa
-        - !<reference> 6db8803c-4858-4765-b15d-1466e84fd10c
-        - !<reference> 62b6ced0-8a75-4785-9ed3-1dab9c38d0bb
-        - !<reference> 5a7f35a7-bbf8-4158-b5ac-8c4254739021
-        - !<reference> 6be8ba73-5af2-42ef-a815-d592ed08eb02
-        - !<reference> 28d839c8-8c77-42aa-99c0-7ac9a40b1bfb
-        - !<reference> 58d9ff70-ce5e-4a64-bdb0-6da67a81f263
-        - !<reference> 329e5e1e-5ce7-4134-a37c-572c355b8d2b
-        - !<reference> df71510b-4cea-4105-ab34-473fd7a4f81c
-        - !<reference> 495a98dc-34b2-4fdf-91b3-9ce1ba54b1a1
-        - !<reference> 88117ca0-8565-40a4-8274-4b6ae216b3d0
-        - !<reference> a01604a6-fb5e-4048-9963-e5310e085d94
-        - !<reference> ed7ebc41-294b-486d-bd87-6c7305b31ca4
-        - !<reference> d4c4017c-3e78-4ef6-b053-6005f3b81b6b
-        - !<reference> 8636f7f4-9e5c-4d40-b086-e0bf8c6113a3
-        - !<reference> b6857a28-0c99-4401-94ed-8d281f6aefbd
-        - !<reference> 312621b8-f3e9-4638-a746-e0fe09507222
-        - !<reference> 21e5720a-101a-4722-8b81-e460879ef039
-        - !<reference> e2eee4d2-9fc7-4a3e-bfea-3be9989d14fc
-        - !<reference> f4b99ab4-1d68-4db9-8509-915112f51c56
-        - !<reference> 9cd3337c-a40a-4c50-8c07-488828930cc5
-        - !<reference> 93ff9088-4a0d-4a77-b712-6a24e872b44d
-        - !<reference> 89526bc9-fc35-41c2-b3eb-5b7806861193
-        - !<reference> 2e91a348-e04d-4492-9ff2-a30472bf0044
-        - !<reference> 73764577-c8e9-4cbc-9454-94b9226ad43b
-        - !<reference> 4002d7db-f003-42d9-8308-1e414eb7bff3
-        - !<reference> 3d93fe26-139a-4824-aea2-3f0badd72c8d
-        - !<reference> af30982d-5012-4340-966f-54b73fb198e3
-        - !<reference> efdba24d-e1ab-4172-8ceb-ec30e8fb95e4
-        - !<reference> 9d712502-0a7e-49e7-a15d-7e216a3a0d57
-        - !<reference> 67884bc1-327b-40d1-95eb-3f1ae8005aa9
-        - !<reference> aed75281-3a65-4f0e-b184-897b9c4b5376
-        - !<reference> 05ab19ae-48ac-4d58-a8b7-843042c8015d
-        - !<reference> 1fb97111-1340-486b-af56-02aa4f52cb87
-        - !<reference> 3b386a1b-53c2-4b2f-b317-f41d58025bfa
-        - !<reference> a437fd33-e9b6-4472-b9d5-d6ec801457c8
-        - !<reference> dee96800-3bd5-41fb-aa7c-83d7a77f8c1c
-        - !<reference> 261e4ab6-560c-47c2-8f8e-863b658ab776
-        - !<reference> 74b3acad-0b3d-4def-a779-4365f37fd2f9
-        - !<reference> 28d738d2-1862-414c-9da9-91b7f2bdef7b
-        - !<reference> 574bea60-bad5-4a5b-bced-3f8d2d9a55a6
-        - !<reference> ce469271-188b-46d5-a9a6-19910d57a6f6
-        - !<reference> a4867429-8a48-421a-aa8e-58641c8b6059
-        - !<reference> 31f8e373-dcd6-4651-833b-2195cce1eda0
-        - !<reference> 151dbb25-ca45-4d7d-8a81-8ac85a4ad5d5
-        - !<reference> b454582f-1900-46d8-b752-c969ad8908aa
-        - !<reference> fc6ba868-c8bb-4069-aa8d-604dd1148ad6
-      loopPlaylist: true
-  ScriptTypes:
-    "":
-      {}
 - !<ScreenTransform/06b4c1df-fc8b-44c7-92ab-45183b63600e>
   PrefabRemaps:
     []
@@ -396,6 +328,39 @@
   Components:
     - !<own> d2fe7c76-ee65-41ff-8bba-e6f4018c4e85
     - !<own> 32772782-2a57-4070-a0d9-d56df2cad3aa
+- !<ScreenTransform/1c5f361e-00af-4569-b2d2-5c57426b5f6d>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
 - !<SceneObject/1dcbbd21-73a2-47e6-bb01-02d83bb9141a>
   PrefabRemaps:
     []
@@ -414,6 +379,7 @@
     - !<own> 1c5927ae-9212-4629-9a7d-99e46a9e3202
     - !<own> 91e8da01-1e0a-48b9-9229-43ca109a563d
     - !<own> 6c7f9aa1-c35d-4f5b-a4dd-a41bf561b5f9
+    - !<own> 55582577-ffd3-4a9d-80f9-64fea14c260b
   Components:
     - !<own> 2d044093-a85c-4a26-94b5-097134b4b32e
     - !<own> 902ab818-8aff-477f-acd9-194b8241a5ee
@@ -598,6 +564,21 @@
     []
   Components:
     - !<own> a9d2203f-ef60-43cf-8b31-1d41e8280db2
+- !<SceneObject/55582577-ffd3-4a9d-80f9-64fea14c260b>
+  PrefabRemaps:
+    []
+  Name: DummyGameOver
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1c5f361e-00af-4569-b2d2-5c57426b5f6d
 - !<SceneObject/5ad55654-d690-43d5-aa39-055fad9559e2>
   PrefabRemaps:
     []
@@ -614,7 +595,6 @@
     - !<own> 02423e54-6cd7-40b6-b29a-bd73bb12132e
     - !<own> 5ae5a6bb-6a78-47d6-873e-bea84a15a1aa
     - !<own> 77719112-cfe5-4eeb-a095-2099c895b9cf
-    - !<own> cd591dc0-6741-4101-8c05-a3ea4540d3b3
   Components:
     []
 - !<SceneObject/5ae5a6bb-6a78-47d6-873e-bea84a15a1aa>
@@ -1025,10 +1005,8 @@
     useTurnHistory: true
     turnsSavedLimitInput: true
     autoRestoreTurn: true
-    tappableAreasInput: true
     user1FlowObjectsInputSO: true
     user2FlowObjectsInputSO: true
-    gameOverObjectsInputSO: true
     debugMode: true
     swapPlayersAfterSimulatedTurn: true
     debugTappedKeySimulateTurn: true
@@ -1063,13 +1041,14 @@
       turnsSavedLimitInput: 0
       autoRestoreTurn: false
       tappableAreasInput:
-        []
+        - key: ""
+          screenTransform: !<reference.ScreenTransform> 6a78f5c8-63f6-4ed7-9d29-955299d4a3e5
       user1FlowObjectsInputSO: !<reference.SceneObject[]>
         []
       user2FlowObjectsInputSO: !<reference.SceneObject[]>
         []
       gameOverObjectsInputSO: !<reference.SceneObject[]>
-        []
+        - !<reference> 55582577-ffd3-4a9d-80f9-64fea14c260b
       debugMode: Simulate Turns
       swapPlayersAfterSimulatedTurn: true
       debugTappedKeySimulateTurn: ""
@@ -1711,21 +1690,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/cd591dc0-6741-4101-8c05-a3ea4540d3b3>
-  PrefabRemaps:
-    []
-  Name: BGMRandomPlayList
-  Enabled: false
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 0416c9f7-46ce-429d-a5ab-c4362504ac4f
 - !<SceneObject/ce1b087b-cf87-4998-9f55-ffed328889fc>
   PrefabRemaps:
     []

@@ -14,6 +14,7 @@ script.createEvent("OnStartEvent").bind(function(eventData){
 })
 
 
+
 function initLeaderboard(){
     // Subscribe once, e.g. in OnStart
 script.leaderboardRef.onLeaderboardRecordsUpdated.add(function(wrapper) {
@@ -58,11 +59,58 @@ if (global.heartCoinController && global.heartCoinController.getTotalHearts) {
 print("Current session hearts: " + sessionScore);
 
             var newScore = currentHighScore + sessionScore;
-            script.leaderboardRef.submitScore(newScore)
-            script.turnBased.setIsFinalTurn(true);
+            script.leaderboardRef.submitScore(newScore);
+            script.turnBased.setGlobalVariable("gridData", grid);
+            //script.turnBased.setIsFinalTurn(true);
             script.turnBased.endTurn();
         });
     } else {
         print("SendQuoteButton is not assigned.");
+    }
+}
+
+
+///// Dummmy /////
+
+var grid = []
+
+function turnStarted(){
+    getPlayers()
+    getCurrentTurn()
+    getGrid()
+    initLeaderboard();
+    initSendQuoteButton();
+
+}
+
+script.turnBased.onTurnStart.add((eventData) => {
+    print("Turn started for user: " + eventData.currentUserIndex);
+    print("Tapped key was: " + eventData.tappedKey);
+    turnStarted();
+});
+
+
+//script.turnBased.onTurnStart.add(turnStarted)
+
+async function getPlayers(){
+    currentPlayer = await script.turnBased.getCurrentUserIndex()
+    otherPlayer = await script.turnBased.getOtherUserIndex()
+
+    print(currentPlayer + " is current player ")
+    print(otherPlayer + " is other player ")
+
+}
+
+async function getCurrentTurn(){
+    currentTurn = await script.turnBased.getTurnCount()
+    print("Turn Count "+currentTurn)
+}
+
+
+async function getGrid(){
+    grid = await script.turnBased.getGlobalVariable("gridData")
+    if(grid == undefined){
+        grid = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
     }
 }
